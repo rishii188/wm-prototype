@@ -1,0 +1,10 @@
+{
+  "tasks_path": "data/gsm8k_200.jsonl",
+  "buffer_sizes": [64, 128, 256],
+  "policies": ["full_context", "recency", "random", "importance", "summarising_recency"],
+  "summarisation_levels": ["light", "heavy", "cognitive"],
+  "summarisation_window_sizes": [1, 2, 3],
+  "seeds": [42],
+  "max_steps": 12,
+  "description": "Full experiment with no-forgetting baseline + constrained policies + cognitive summarisation"
+}

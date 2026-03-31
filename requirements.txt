@@ -1,0 +1,19 @@
+# LLM + Tokenisation
+openai>=1.0.0
+tiktoken
+
+# Data handling
+numpy
+pandas
+jsonlines
+
+# Plotting
+matplotlib
+seaborn
+
+# Utils
+python-dotenv
+tqdm
+
+# Jupyter notebooks for analysis
+jupyter

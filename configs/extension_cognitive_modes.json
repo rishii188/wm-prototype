@@ -1,0 +1,10 @@
+{
+  "tasks_path": "data/gsm8k_200.jsonl",
+  "buffer_sizes": [64, 128, 256],
+  "policies": ["summarising_recency"],
+  "summarisation_levels": ["light", "heavy", "cognitive"],
+  "summarisation_window_sizes": [2],
+  "seeds": [42],
+  "max_steps": 12,
+  "description": "Extension matrix: targeted comparison of light/heavy/cognitive summarisation under fixed window"
+}
