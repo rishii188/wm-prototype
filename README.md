@@ -8,7 +8,7 @@ A computational framework for investigating how working-memory constraints affec
 
 This dissertation implements a **Working Memory (WM) Simulator**: a control layer that imposes human-like memory constraints on LLMs and evaluates how different memory limitations and forgetting strategies influence reasoning performance.
 
-### Key Features
+### Key Features:
 
 - **Token-Limited Buffer**: Configurable active memory with explicit capacity limits
 - **Forgetting Policies**: Four distinct strategies for managing memory overflow:
