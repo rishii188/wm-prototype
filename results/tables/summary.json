@@ -1,0 +1,19 @@
+{
+  "input_file": "data\\full_run_core_matrix_results.jsonl",
+  "rows": 2600,
+  "tasks": 200,
+  "conditions": 2600,
+  "accuracy_overall": 0.7415384615384616,
+  "buffers": [
+    64,
+    128,
+    256
+  ],
+  "policies": [
+    "full_context",
+    "importance",
+    "random",
+    "recency",
+    "summarising_recency"
+  ]
+}

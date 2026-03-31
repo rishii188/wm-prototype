@@ -1,0 +1,15 @@
+{
+  "input_file": "data\\full_run_cognitive_extension_results.jsonl",
+  "rows": 1800,
+  "tasks": 200,
+  "conditions": 1800,
+  "accuracy_overall": 0.7311111111111112,
+  "buffers": [
+    64,
+    128,
+    256
+  ],
+  "policies": [
+    "summarising_recency"
+  ]
+}
